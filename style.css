@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    background-color: peru;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.heading{
+    font-size:30px;
+}
+.input{
+    padding:10px 20px;
+    font-size:18px;
+    background-color: rgba(255,255,255,0.4);
+    border-color: rgba(255,255,255,0.6);
+    margin-top:10px;
+    margin-bottom: 5px;
+}
+.btn{
+    background-color: orangered;
+    border:none;
+    padding:10px 20px;
+    margin-top:10px;
+    border-radius: 5px;
+    font-size:20px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.btn:hover{
+    box-shadow: 0 5px 8px rgba(255,0,0,0.4);
+}
+
+.info-text{
+    font-size:20px;
+    font-weight: bold;
+}
